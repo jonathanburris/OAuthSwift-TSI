@@ -70,7 +70,7 @@ class FormViewController: FormViewControllerType {
         #if os(iOS)
             safariURLHandlerView.isHidden = !self.safariURLHandlerAvailable
         #endif
-        self.urlHandlerType = .`internal`
+        self.urlHandlerType = .safari
     }
     
 
